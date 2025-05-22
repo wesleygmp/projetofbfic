@@ -1,0 +1,227 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
+        <link rel="stylesheet" href="../css/estilo.css">
+  </head>
+  <body>
+<!--Criaremos nosso menu de navegação-->
+<nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+        <a class="navbar-brand" href="#">
+            <img src="../img/logo.png" width="150px" height="80px" alt="">
+        </a>
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="../index.html">Notícias</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Jogos
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="supernintendo.html">Super Nintendo</a></li>
+              <li><a class="dropdown-item" href="nintendo64.html"> Nintendo 64</a></li>
+              <li><a class="dropdown-item" href="play1.html">Playstation 1</a></li>
+              <li><a class="dropdown-item" href="play2.html">Playstation 2</a></li>
+              <li><a class="dropdown-item" href="play3.html">Playstation 3</a></li>
+              <li><a class="dropdown-item" href="xbox360.html">Xbox 360</a></li>
+              <li><a class="dropdown-item" href="xboxone.html">Xbox one</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <main class="container-fluid p-5 d-flex justify-content-around align-items-center fundo altura">
+  <div class="d-flex justify-content-evenly align-items-center p-3">
+    <div class="flex-shrink-0">
+      <iframe width="670" height="377" src="https://www.youtube.com/embed/2_R1Sfs9b5U" title="Pokémon Stadium - N64 [PT-BR Gameplay]" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="border-radius: 70px 20px 70px 20px;"></iframe>
+    </div>
+    <div class="flex-grow-1 ms-3">
+      <h1 class="text-white "> 
+        Pokemon Stadium
+       </h1>
+       <p class="dimensionar-nintendo64 lead w-100 text-white">
+      Pokémon Stadium é um jogo de estratégia da série Pokémon para o Nintendo 64. É um jogo de lutas entre os Pokémon onde o jogador pode lutar contra a CPU ou outros jogadores através do Transfer Pak de Nintendo 64 com Pokémon Red, Blue & Yellow inserido.
+       </p>
+    </div>
+  </div>
+</main>
+
+
+
+<section class="container-fluid p-5 d-flex justify-content-around">
+
+  <div class="card" style="width: 18rem;">
+    <img src="../img/zelda.jpg" class="card-img-top" height="200px"  alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Card title</h5>
+      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+        <div class="container d-flex justify-content-center p-3">
+          <!-- Button trigger modal -->
+          <button type="button" class="btn btn-primary w-50" data-bs-toggle="modal" data-bs-target="#exampleModal1">
+            Vídeo
+          </button>
+
+          <!-- Modal -->
+          <div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  ...
+                </div>
+              </div>
+            </div>
+          </div>
+      </div>  
+    </div>
+  </div>
+
+  <div class="card" style="width: 18rem;">
+    <img src="../img/OgreBattle64.jpg" class="card-img-top" height="200px"  alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Card title</h5>
+      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+      <div class="container d-flex justify-content-center p-3">
+        <!-- Button trigger modal -->
+        <button type="button" class="btn btn-primary w-50" data-bs-toggle="modal" data-bs-target="#exampleModal2">
+          Vídeo
+        </button>
+
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                ...
+              </div>
+            </div>
+          </div>
+        </div>
+    </div> 
+     
+    </div>
+  </div>
+
+  <div class="card" style="width: 18rem;">
+    <img src="../img/FIFA_98_cover.jpg" class="card-img-top" height="200px" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Card title</h5>
+      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+      <a href="#" class="btn btn-primary">Go somewhere</a>
+    </div>
+  </div>
+
+</section>
+
+
+<section class="container-fluid p-2 d-flex justify-content-evenly">
+
+  <div class="card" style="width: 18rem;">
+    <img src="../img/zelda.jpg" class="card-img-top" height="200px"  alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Card title</h5>
+      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+        <div class="container d-flex justify-content-center p-3">
+          <!-- Button trigger modal -->
+          <button type="button" class="btn btn-primary w-50" data-bs-toggle="modal" data-bs-target="#exampleModal1">
+            Vídeo
+          </button>
+
+          <!-- Modal -->
+          <div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  ...
+                </div>
+              </div>
+            </div>
+          </div>
+      </div>  
+    </div>
+  </div>
+
+  <div class="card" style="width: 18rem;">
+    <img src="../img/OgreBattle64.jpg" class="card-img-top" height="200px"  alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Card title</h5>
+      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+      <div class="container d-flex justify-content-center p-3">
+        <!-- Button trigger modal -->
+        <button type="button" class="btn btn-primary w-50" data-bs-toggle="modal" data-bs-target="#exampleModal2">
+          Vídeo
+        </button>
+
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                ...
+              </div>
+            </div>
+          </div>
+        </div>
+    </div> 
+     
+    </div>
+  </div>
+
+  <div class="card" style="width: 18rem;">
+    <img src="../img/FIFA_98_cover.jpg" class="card-img-top" height="200px" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Card title</h5>
+      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+      <a href="#" class="btn btn-primary">Go somewhere</a>
+    </div>
+  </div>
+
+  
+  <div class="card" style="width: 18rem;">
+    <img src="../img/FIFA_98_cover.jpg" class="card-img-top" height="200px" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Card title</h5>
+      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+      <a href="#" class="btn btn-primary">Go somewhere</a>
+    </div>
+  </div>
+</section>
+
+
+
+
+
+
+    
+    
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.min.js" integrity="sha384-RuyvpeZCxMJCqVUGFI0Do1mQrods/hhxYlcVfGPOfQtPJh0JCw12tUAZ/Mv10S7D" crossorigin="anonymous"></script>
+  </body>
+</html>
