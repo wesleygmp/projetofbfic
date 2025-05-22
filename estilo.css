@@ -1,4 +1,97 @@
-.teste{
-color: red;
-font-size: 150px;
+.icones{
+    font-size: 40px;
+    display: flex;
+    justify-content: space-around;
+    
+}
+.icones i{
+    color: black;
+    text-decoration: none;
+}
+.icones .facebook:hover{
+    color: rgb(10, 33, 236);
+    text-decoration: none;
+}
+.icones .instagram:hover{
+    color: rgb(145, 10, 236);
+    text-decoration: none;
+}
+
+.copy{
+    text-align: center;
+    align-items: center;
+}
+
+/*Classe para a página do supernintendo*/
+.dimensionar-supernintendo{
+    width: 85%;
+    text-align: justify;
+}
+.dimensionar-nintendo64{
+    width: 100%;
+    text-align: justify;
+}
+
+/*Nintendo 64*/
+
+.altura{
+    max-height: 660px;
+    height: 100%;
+}
+.fundo{
+    width: 100%;
+    background-image: url('http://127.0.0.1:5500/Atividades/.Bootstrap/img/fundo.png');
+}
+
+.remove-link{
+    text-decoration: none;
+    color:rgb(0,139,139);
+}
+
+/*Aplicação da propriedade altura no código login*/
+.altura-login{
+    padding: 2%;/*Espaçamento*/
+    height: 600px;/*altura */
+}
+.imagem-login{
+    background-image: url("http://127.0.0.1:5500/Atividades/.Bootstrap/img/background.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+
+}
+.cordobotao{
+    background-color: crimson;
+    color: white;
+}
+.cordobotao:hover{
+    background-color: rgb(129, 4, 245);
+    transition: 5s;
+    color: white;
+}
+.cordefundo-form{
+    background-color: rgba(0,0,0,.4);
+    padding: 2%;
+    border-radius: 20px 0px 20px 0px;
+    color: white;
+    box-shadow: 0px 0px 10px crimson;
+}
+.cordefundo-form:hover{
+    background-color: rgba(0,0,0,.4);
+    padding: 2%;
+    transition: 5s;
+    border-radius: 20px 0px 20px 0px;
+    color: white;
+    box-shadow: 0px 0px 10px rgb(129, 4, 245);
+}
+
+.icones-log{
+    font-size: 45px;
+    color: crimson;
+    margin-left: 25px;
+}
+.posicao-botao{
+    top: 85%;
+}
+.minha-borda{
+border: 1px solid rgb(211, 211, 211);
 }
